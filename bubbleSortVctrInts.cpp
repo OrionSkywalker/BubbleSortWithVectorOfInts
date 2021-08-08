@@ -3,6 +3,7 @@
 using namespace std;
 
 /* Define your function here */
+//the first value in the vector will represent the size of the vector. 5 4 3 2 1 0 would sort to 0 1 2 3 4
 void SortVector(vector<int>& myVec){
    int tempVal;
    bool swap = true;
